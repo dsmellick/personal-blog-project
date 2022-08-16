@@ -1,12 +1,1 @@
-.navigation-bar {
-    background: url(https://www.theblondeabroad.com/wp-content/themes/tba/images/Menu-Bg.png) no-repeat;
-    height: 50px;
-    width: 100%;
-}
-
-.clicker-box {
-    height: inherit;
-    width: 90%;
-    margin: auto auto;
-    background-color: aqua;
-}
+@media (min-width: 1024px) {}

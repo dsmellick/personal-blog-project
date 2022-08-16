@@ -1,17 +1,27 @@
 
+@import url(Style/mobile600.css);
+@import url(Style/rectangle1024.css);
+@import url(Style/rectangle1366.css);
+
 @import url(https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap);
 
-body{
-    font-family: 'Indie Flower', cursive;
+body {
+  font-family: "Indie Flower", cursive;
 }
 
-@media (max-width: 360px){
-    @import url(Style/mobile360.css);
-}
-@media (min-width: 360px) and (max-width: 1024px){
-    @import url(Style/rectangle1024.css);
-}
-@media (min-width: 1024px) {
-    @import url(Style/rectangle1366.css);
-}
-    
+nav {
+    grid-area: navigation bar;
+    display: flex;
+    width: 100%;
+    background-color: rgb(183, 230, 234);
+  }
+
+  .clicker-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    width: 95%;
+    margin: auto auto;
+    padding: 5px;
+  }
