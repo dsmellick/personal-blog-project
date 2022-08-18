@@ -1,1 +1,31 @@
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+  body {
+    grid-template-areas:
+      "navigation-bar"
+      "header"
+      "main"
+      "footer";
+  }
+
+  nav {
+    font-size: 22px;
+  }
+
+  main {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .posts {
+    grid-template-areas:
+      "post1 post2"
+      "post3 post4"
+      "post5";
+    grid-template-columns: 1fr 1fr;
+    flex-grow: 3;
+  }
+
+  .add-ons {
+    flex-grow: 1;
+  }
+}
