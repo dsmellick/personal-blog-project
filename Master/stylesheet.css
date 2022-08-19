@@ -9,6 +9,37 @@ body {
   display: grid;
 }
 
+button{
+  font-family: "Indie Flower", cursive;
+  background-color:#d6ccbb;
+  padding: 5px;
+  border: none;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+a {
+  color: #3a2803;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 nav {
   grid-area: navigation-bar;
   display: flex;
@@ -109,8 +140,28 @@ main {
   padding: 10px;
 }
 
+.tags-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  margin: 5px;
+  padding: 2px;
+}
+
 footer {
   grid-area: footer;
+  width: 100%;
   display: flex;
-  background-color: gray;
+  background-color: #d6ccbb;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
