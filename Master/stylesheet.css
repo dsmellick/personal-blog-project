@@ -40,6 +40,12 @@ a:active {
   text-decoration: none;
 }
 
+img {
+  width:100%;
+  height: auto;
+  border-radius: 5%;
+}
+
 nav {
   grid-area: navigation-bar;
   display: flex;
@@ -69,12 +75,12 @@ main {
   grid-area: main;
   display: flex;
   margin-top: -10px;
+  margin: -10px 10px;
 }
 
 .posts {
   grid-area: posts;
   display: grid;
-  background-color: yellow;
   margin: 10px;
   font-size: 16px;
   justify-content: center;
@@ -82,29 +88,37 @@ main {
 
 .post1 {
   grid-area: post1;
-  background-color: aqua;
 }
 
 .post2 {
   grid-area: post2;
-  background-color: green;
-
 }
 
 .post3 {
   grid-area: post3;
-  background-color: red;
 }
 
 .post4 {
   grid-area: post4;
-  background-color: blue;
 }
 
 .post5 {
   grid-area: post5;
-  background-color: violet;
+}
 
+.post-frame {
+border: 1px solid #3a2803;
+background-color: #f1eee9;
+border-radius: 10px;
+padding: 10px;
+margin:10px;
+justify-content: center;
+}
+
+.post-title {
+  margin: auto;
+  padding: 5px;
+  text-align: center;
 }
 
 .add-ons {
@@ -119,7 +133,7 @@ main {
   flex-direction: column;
   margin: 10px;
   padding: 10px;
-
+  border-radius: 10%;
 }
 
 .recent-comments {
@@ -129,6 +143,7 @@ main {
   flex-direction: column;
   margin: 10px;
   padding: 10px;
+  border-radius: 10%;
 }
 
 .tags {
@@ -138,6 +153,7 @@ main {
   flex-direction: column;
   margin: 10px;
   padding: 10px;
+  border-radius: 10%;
 }
 
 .tags-box {
