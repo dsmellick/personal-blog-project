@@ -20,12 +20,12 @@
     grid-template-areas:
       "post1 post2"
       "post3 post4"
-      "post5";
-    grid-template-columns: 1fr 1fr;
-    flex-grow: 3;
+      "post5 post6";
+    grid-template-rows: 1fr 1fr 1fr;
   }
 
-  .add-ons {
-    flex-grow: 1;
+  .image-frame {
+    width: 350px;
+    height: 350px;
   }
 }
