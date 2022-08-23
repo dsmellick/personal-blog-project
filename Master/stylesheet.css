@@ -1,3 +1,4 @@
+@import url(Posts/post_style.css);
 @import url(Style/mobile600.css);
 @import url(Style/rectangle1024.css);
 @import url(Style/rectangle1366.css);
@@ -14,8 +15,8 @@ button{
   background-color:#d6ccbb;
   padding: 5px;
   border: none;
-  border-radius: 20px;
   font-size: medium;
+  border-radius: 20px;
 }
 
 button:hover {
@@ -58,7 +59,7 @@ nav {
 .clicker-box {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content:space-between;
   height: inherit;
   width: 95%;
   margin: auto auto;
@@ -71,6 +72,7 @@ nav {
   display: flex;
   justify-content: center;
   padding: 10px;
+  font-size: 36px;
 }
 
 main {
@@ -140,6 +142,12 @@ flex-direction: column;
   background-color: #f1eee9;
 }
 
+.more {
+  float: right;
+  padding-right: 5px;
+  margin-bottom: 5px;
+}
+
 .tags-box {
   display: flex;
   flex-wrap: wrap;
@@ -148,6 +156,7 @@ flex-direction: column;
 .tag {
   margin: 5px;
   padding: 2px;
+  text-decoration-line: underline;
 }
 
 footer {
@@ -155,6 +164,7 @@ footer {
   width: 100%;
   display: flex;
   background-color: #d6ccbb;
+  margin: 10px;
 }
 
 .fa {

@@ -5,6 +5,8 @@
       "header"
       "main"
       "footer";
+    justify-content: center;
+    align-items: center;
   }
 
   main {

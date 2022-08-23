@@ -1,0 +1,32 @@
+
+body {
+    font-size: 10px;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border: 1px solid #3a2803;
+}
+
+.post-frame > * {
+    margin: 10px;
+}
+
+.avatar {
+    border-radius: 20px;
+}
+
+.bio {
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+.post-body {
+    margin: 10px;
+}

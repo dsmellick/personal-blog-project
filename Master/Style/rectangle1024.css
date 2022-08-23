@@ -22,8 +22,6 @@
       "post3 post4"
       "post5 post6";
     grid-template-rows: 1fr 1fr 1fr;
-    font-size: 10px;
-
   }
 
   .image-frame {
