@@ -1,7 +1,7 @@
-@import url(Posts/post_style.css);
-@import url(Style/mobile600.css);
-@import url(Style/rectangle1024.css);
-@import url(Style/rectangle1366.css);
+@import url(post_style.css);
+@import url(mobile600.css);
+@import url(rectangle1024.css);
+@import url(rectangle1366.css);
 
 @import url(https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap);
 
@@ -73,6 +73,13 @@ nav {
   justify-content: center;
   padding: 10px;
   font-size: 36px;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  display: flex;
+  margin: auto;
+  justify-content: center;
 }
 
 main {
